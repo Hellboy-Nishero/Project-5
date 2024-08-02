@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 673px;
+  height: 1296px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 581px;
+  border-radius: 8px;
+  background-color: #fff; 
+  box-shadow: 0 0 15px 0 #3263CD;
+}
+
+.main form h1{
+  width: 511px;
+  height: 260px;
+  padding: 69px 0 55px 0;
+  background-color: #87CEFA;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.main form > div{
+  width: 512.13px;
+  margin-top: 5px;
+}
+
+
+.main form div .heading{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14.61px;
+  line-height: 22px;
+  color: #808080;
+}
+
+
+
+.main form div .input-field{
+  width: 100%;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 9px 6px 9px 6px;
+}
+
+
+.main form .name input:first-of-type{
+  margin: 10px 0 10px 0;
+}
+.main form input:last-of-type{
+  margin: 10px 0 10px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14.61px;
+  line-height: 22px;
+  color: #808080;
+}
+
+.main form div label{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14.61px;
+  line-height: 22px;
+  color: #000;
+}
+
+
+.main form input:last-of-type:focus{
+  color: #000;
+}
+
+.main form .visit-time input{
+  color: #000;
+}
+
+
+.main form .visit-time input{
+  appearance: none;
+}
+
+
+.main form .country select{
+  appearance: none;
+}
+
+
+.main form .extra-info textarea{
+  width: 100%;
+  height: 56px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+
+.main form .contact{
+  width: 249px;
+  margin-right: 261.13px;
+}
+
+
+.main form .call-time{
+  width: 365px;
+  margin-right: 145.13px;
+} 
+
+
+.main form .btn{
+  display: flex;
+  justify-content: center;
+  width: 543px;
+  margin-bottom: 25px;
+}
+
+
+.main form .btn button{
+  width: 157px;
+  height: 42px;
+  color: #fff;
+  background-color: #3263CD;
+  border-radius: 5px;
+  padding: 10px 3.21px 10px 9.79px;
+}
+/*# sourceMappingURL=style.css.map */
+
